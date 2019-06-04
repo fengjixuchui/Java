@@ -1,3 +1,4 @@
+package DataStructures.Lists;
 
 /**
  * This class implements a DoublyLinkedList. This is done using the classes
@@ -13,7 +14,7 @@
  * @author Unknown
  */
 
-class DoublyLinkedList {
+public class DoublyLinkedList {
     /**
      * Head refers to the front of the list
      */
@@ -115,8 +116,13 @@ class DoublyLinkedList {
     public void delete(int x) {
         Link current = head;
 
-        while (current.value != x) // Find the position to delete
-            current = current.next;
+        while (current.value != x) {// Find the position to delete
+            if (current != tail) {
+                current = current.next;
+            } else {// If we reach the tail and the element is still not found
+                throw new RuntimeException("The element to be deleted does not exist!");
+            }
+        }
 
         if (current == head)
             deleteHead();
