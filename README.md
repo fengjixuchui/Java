@@ -4,6 +4,11 @@
 
 NOTE: A [Development](https://github.com/TheAlgorithms/Java/tree/Development) branch is made for this repo where we are trying to migrate the existing project to a Java project structure. You can switch to [Development](https://github.com/TheAlgorithms/Java/tree/Development) branch for contributions. Please refer [this issue](https://github.com/TheAlgorithms/Java/issues/474) for more info.
 
+You can play around (run and edit) the Algorithms or contribute to them using Gitpod.io a free online dev environment with a single click. No need to worry about the Dev enviroment.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TheAlgorithms/Java)
+
+
 ### All algorithms implemented in Java (for education)
 
 These are for demonstration purposes only. There are many implementations of sorts in the Java standard library that are much better for performance reasons.
@@ -28,7 +33,7 @@ __Properties__
 ### Insertion
 ![alt text][insertion-image]
 
-From [Wikipedia][insertion-wiki]: Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. 
+From [Wikipedia][insertion-wiki]: Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
 In the figure, each bar represents an element of an array that needs to be sorted. What happens at the first intersection of the top most and second top most bars is to swap these elements, represented by bars, because the second element has a higher precedence than the first element does. By repeating this method, insertion sort completes sorting.
 
 __Properties__
@@ -121,7 +126,7 @@ __Properties__
 * Worst case performance    O(log n)
 * Best case performance    O(1)
 * Average case performance    O(log n)
-* Worst case space complexity    O(1) 
+* Worst case space complexity    O(1)
 
 ##### View the algorithm in [action][binary-tutorialspoint]
 
@@ -163,14 +168,14 @@ __Properties__
 
 Conversions          |                                          Dynamic Programming   |Ciphers|Miscellaneous|
 -----------          |----------------------------------------------------------------|-------|-------------|
-[Any Base to Any Base](Conversions/AnyBaseToAnyBase.java)| [Coin Change](Dynamic%20Programming/CoinChange.java)|[Caesar](ciphers/Caesar.java)|[Heap Sort](misc/heap_sort.java)|
-[Any Base to Decimal](Conversions/AnyBaseToDecimal.java)|[Egg Dropping](Dynamic%20Programming/EggDropping.java)|[Columnar Transposition Cipher](ciphers/ColumnarTranspositionCipher.java)|[Palindromic Prime Checker](misc/PalindromicPrime.java)|
-[Binary to Decimal](Conversions/BinaryToDecimal.java)|[Fibonacci](Dynamic%20Programming/Fibonacci.java)|[RSA](ciphers/RSA.java)|More soon...|
-[Binary to HexaDecimal](Conversions/BinaryToHexadecimal.java)|[Kadane Algorithm](Dynamic%20Programming/KadaneAlgorithm.java)|more coming soon...|
-[Binary to Octal](Conversions/BinaryToOctal.java)|[Knapsack](Dynamic%20Programming/Knapsack.java)|
-[Decimal To Any Base](Conversions/DecimalToAnyBase.java)|[Longest Common Subsequence](Dynamic%20Programming/LongestCommonSubsequence.java)|
-[Decimal To Binary](Conversions/DecimalToBinary.java)|[Longest Increasing Subsequence](Dynamic%20Programming/LongestIncreasingSubsequence.java)|
-[Decimal To Hexadecimal](Conversions/DecimalToHexaDecimal.java)|[Rod Cutting](Dynamic%20Programming/RodCutting.java)|
+[Any Base to Any Base](Conversions/AnyBaseToAnyBase.java)| [Coin Change](DynamicProgramming/CoinChange.java)|[Caesar](ciphers/Caesar.java)|[Heap Sort](Misc/heap_sort.java)|
+[Any Base to Decimal](Conversions/AnyBaseToDecimal.java)|[Egg Dropping](DynamicProgramming/EggDropping.java)|[Columnar Transposition Cipher](ciphers/ColumnarTranspositionCipher.java)|[Palindromic Prime Checker](Misc/PalindromePrime.java)|
+[Binary to Decimal](Conversions/BinaryToDecimal.java)|[Fibonacci](DynamicProgramming/Fibonacci.java)|[RSA](ciphers/RSA.java)|More soon...|
+[Binary to HexaDecimal](Conversions/BinaryToHexadecimal.java)|[Kadane Algorithm](DynamicProgramming/KadaneAlgorithm.java)|more coming soon...|
+[Binary to Octal](Conversions/BinaryToOctal.java)|[Knapsack](DynamicProgramming/Knapsack.java)|
+[Decimal To Any Base](Conversions/DecimalToAnyBase.java)|[Longest Common Subsequence](DynamicProgramming/LongestCommonSubsequence.java)|
+[Decimal To Binary](Conversions/DecimalToBinary.java)|[Longest Increasing Subsequence](DynamicProgramming/LongestIncreasingSubsequence.java)|
+[Decimal To Hexadecimal](Conversions/DecimalToHexaDecimal.java)|[Rod Cutting](DynamicProgramming/RodCutting.java)|
 and much more...|                                                    and more...|
 
 ### Data Structures
